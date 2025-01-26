@@ -2,6 +2,8 @@
 
 Leet Code reference: https://leetcode.com/problems/two-sum/description/
 
+Topic: Array, Hash Table
+
 ## Description 
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
