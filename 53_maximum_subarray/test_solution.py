@@ -14,11 +14,11 @@ class SolutionTestCase(unittest.TestCase):
             ([5, 4, -1, 7, 8], 23),
             ([2, 3, -8, 7, -1, 2, 3], 11),
             ([-2, -4], -2),
-            ([5, 4, 1, 7, 8], 25)
+            ([5, 4, 1, 7, 8], 25),
         ]
 
         for nums, expected in test_cases:
             solution = Solution(nums=nums)
 
-            actual = solution.calculate_max_subarray(0, len(nums)-1)
+            actual = solution.calculate_max_subarray(0, len(nums) - 1)
             self.assertEqual(actual, expected)

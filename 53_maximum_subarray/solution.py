@@ -11,9 +11,9 @@ class Solution:
     def calculate_max_subarray(self, left_idx: int = 0, right_idx: int = 0) -> int:
         """
 
-        :param left_idx: The left index of the current subarray.
-        :param right_idx: The right index of the current subarray.
-        :return: The maximum subarray sum in the range [left_idx, right_idx].
+        :param left_idx: int: The left index of the current subarray.
+        :param right_idx: int: The right index of the current subarray.
+        :return: int: The maximum subarray sum in the range [left_idx, right_idx].
         """
         if left_idx == right_idx:
             return self.nums[left_idx]

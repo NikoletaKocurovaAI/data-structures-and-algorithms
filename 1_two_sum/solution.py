@@ -3,7 +3,7 @@ class Solution:
         """
         :param nums: list[int]: Numbers to search through for pairs that sum to the target
         :param target: int: The target sum to find in nums
-        :return: list[int] A list of two indices whose values add up to the target
+        :return: list[int]: A list of two indices whose values add up to the target
 
         :example:
             two_sum([2, 7, 11, 15], 9) -> [0, 1]
