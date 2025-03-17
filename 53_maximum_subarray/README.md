@@ -41,10 +41,3 @@ O(n) time, O(1) space
 This approach splits the array into halves, solves each half recursively, and combines the results to find the global maximum.
 
 The given solution is not dynamic programming. Algorithm is not greedy.
-
-**Dynamic programming**
-
-Breaking the problem into smaller subproblems and solving each subproblem only once while reusing its result.
-
-**Memoization** is a dynamic programming technique where the results of already-solved subproblems are stored in 
-a table (often a dictionary or array) so that they can be reused later, avoiding redundant computations. 
